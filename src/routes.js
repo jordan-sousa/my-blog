@@ -1,13 +1,14 @@
-import './App.css';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Menu from './componentes/Menu'
 import Home from './pages/Home';
 import SobreMim from './pages/SobreMim'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 
 
-function App() {
+function AppRoutes() {
   return (
     <BrowserRouter>
+      <Menu/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/sobremim' element={<SobreMim/>}/>
@@ -17,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default AppRoutes;
