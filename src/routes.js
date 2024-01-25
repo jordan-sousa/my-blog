@@ -6,7 +6,7 @@ import SobreMim from './pages/SobreMim'
 import PaginaPadrao from 'componentes/PaginaPadrao';
 import Rodape from 'componentes/Rodape';
 import NaoEncontrada from 'pages/NaoEncontrada';
-import ScrollToTop from 'componentes/ScrollToTop';
+import ScrollToTop from 'componentes/ScrollToTopButton';
 
 
 
